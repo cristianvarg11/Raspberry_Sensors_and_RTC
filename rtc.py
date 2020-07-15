@@ -56,7 +56,7 @@ class DS3231:
                     RTCvalor['year'], RTCvalor['hora'], RTCvalor['minutos'], RTCvalor['segundos'], formatohora)
         return Lectura
 #--------------------------------------------------#
-class Local_and_RTC(DS3231):  # Sincronizar datos si entre el RTC el localtime existen mas de 2 seg de diferencia
+class Local_and_RTC(DS3231):  # Sincronizar datos si entre el RTC y el localtime existen mas de 2 seg de diferencia
     #________ Capture ___________#
     def __init__(self):
         now = datetime.now()  # fecha y hora del sistema
