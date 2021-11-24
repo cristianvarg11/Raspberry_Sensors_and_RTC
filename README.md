@@ -9,5 +9,3 @@ In this sense, the PINs used are:
 *DHT11 -> Pin: 19 for data 
 *PIR -> Pin: 40 for level 
 *Buzzer(alarm) -> Pin: 36 for level
-===============================================================
-The statement was developed by Víctor Machado - DRK Victor-DRK
